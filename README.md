@@ -33,14 +33,14 @@ This lab mirrors the architecture used in **real factories, power plants, and in
 # Objectives
 
 ## **A) IT/OT Segmentation**
-Implement a 4‑zone industrial network:
+````Implement a 4‑zone industrial network:
 
 | Zone | Interface | Network | Purpose |
 |------|-----------|---------|---------|
 | **LAN (IT)** | em0 | 192.168.1.0/24 | Engineering workstation, IT tools |
 | **SCADA** | em1 | 192.168.20.0/24 | HMI, SCADA servers |
 | **PLC** | em2 | 192.168.30.0/24 | PLCs, controllers |
-| **DMZ** | em3 | 192.168.40.0/24 | Historian, jump host |
+| **DMZ** | em3 | 192.168.40.0/24 | Historian, jump host | ````
 
 Segmentation follows **ISA/IEC 62443** and the **Purdue Model**.
 
